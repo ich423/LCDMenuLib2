@@ -56,6 +56,7 @@
     // call repeat of function
     #define LCDML_DISP_initFunction(N)      LCDML_DISP_func_repeat(N);
 
+    #define _LCDML_ESP
     #ifndef _LCDML_ESP
         // stored in flash (Arduino)
         #define LCDML_langDef(name, lang, content) \
